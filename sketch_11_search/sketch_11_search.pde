@@ -1,3 +1,4 @@
+//TYPE A WORD AND RECEIVE SUGGESTIONS
 
 String stringToSearch = "";
 ArrayList<String> dictionaryOfPossibleWords = new ArrayList<String>();
