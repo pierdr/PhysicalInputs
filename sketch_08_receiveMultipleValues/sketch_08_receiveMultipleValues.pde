@@ -1,1 +1,1 @@
-
+CHECK EXAMPLE sketch_10_splitString
