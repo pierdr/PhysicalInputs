@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  /* IN THE LOOP WE TRY NOT TO INSTANTIATE NEW VARIABLES (workingValue is created in the public scope) */
   workingValue = analogRead(LDR_PIN);
   analogWrite(LED_PIN,map(workingValue,0,1023,255,0));
   Serial.println(workingValue);
